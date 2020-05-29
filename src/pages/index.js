@@ -1,22 +1,17 @@
 import React from "react"
 import { graphql, StaticQuery } from 'gatsby'
-import { Row, Col } from 'reactstrap'
 import { Helmet } from 'react-helmet'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Post from '../components/Post'
-import Sidebar from '../components/Sidebar'
 
 const IndexPage = () => (
-  <Layout>
+  <Layout pageTitle="Home Page">
     <Helmet>
       <script src="https://kit.fontawesome.com/14ff7e2675.js" crossOrigin="anonymous"></script>
     </Helmet>
     <SEO title="Home" />
-    <h1>Home Page</h1>
-    <Row>
-      <Col md="8" >
       <StaticQuery query={ indexQuery } render={ data => {
         return (
           <div>
@@ -35,11 +30,6 @@ const IndexPage = () => (
           </div>
         )
       } } />
-      </Col>
-      <Col md="4" >
-        <Sidebar />
-      </Col>
-    </Row>
   </Layout>
 )
 
