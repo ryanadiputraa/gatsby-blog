@@ -5,7 +5,7 @@ const Footer = () => (
   © {new Date().getFullYear()} Ryan Adi Putra
           {` `}
     <p className="text-center">Follow on social media</p>
-    <div class="footer-social-links">
+    <div className="footer-social-links">
       <ul className="social-links-list">
         <li><a href="https://www.facebook.com/ryan.adiputra.1426" target="_blank" rel="noopener noreferrer" className="facebook">
           <i className="fab fa-facebook-f fa-2x"></i>
@@ -19,7 +19,7 @@ const Footer = () => (
         <li><a href="https://www.instagram.com/bukanryan/" target="_blank" rel="noopener noreferrer" className="instagram">
           <i className="fab fa-instagram fa-2x"></i>
         </a></li>
-        <li><a href="https://www.instagram.com/bukanryan/" target="_blank" rel="noopener noreferrer" className="twitter">
+        <li><a href="https://twitter.com/RyanAdi33024016" target="_blank" rel="noopener noreferrer" className="twitter">
           <i className="fab fa-twitter fa-2x"></i>
         </a></li>
       </ul>
