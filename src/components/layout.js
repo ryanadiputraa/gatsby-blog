@@ -2,6 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
+import Footer from './Footer'
 import Header from "./header"
 import '../styles/index.scss'
 
@@ -21,10 +22,7 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <div className="container" id="content" >
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()} Ryan Adi Putra
-          {` `}
-        </footer>
+        <Footer />
       </div>
     </>
   )
