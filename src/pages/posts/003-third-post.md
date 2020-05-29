@@ -2,7 +2,6 @@
 title: 'Third Post - HTML'
 date:  2020-05-31 07:00:00
 author: 'Ryan Adi Putra'
-path: '/third-post'
 image: ../../images/algorithm.jpg
 tags: 
 - programming
