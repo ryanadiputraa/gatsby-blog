@@ -6,9 +6,10 @@ import { Badge, Card, CardBody, CardSubtitle } from 'reactstrap'
 import Img from 'gatsby-image'
 import { slugify } from '../util/utilityFunctions'
 
-const SinglePost = ({ data }) => {
+const SinglePost = ({ data, pageContext }) => {
 
   const post = data.markdownRemark.frontmatter;
+  const baseUrl = 'https://ryanadiputra.netlify.app/';
 
   return(
     <Layout pageTitle={post.title}>
@@ -32,6 +33,22 @@ const SinglePost = ({ data }) => {
               </ul>
             </CardBody>
           </Card>
+          <h3 className="text-center">
+            Share this post
+          </h3>
+          <div className="text-center social-share-links">
+            <ul>
+              <li><a href={'https://www.facebook.com/sharer/sharer.php?=' + baseUrl + pageContext.slug } className="facebook" target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-facebook-f fa-2x"></i>
+              </a></li>
+              <li><a href={'https://twitter.com/share?url=' + baseUrl + pageContext.slug + '&text=' + post.title + '&viatwitterHandle' } className="twitter" target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-twitter fa-2x"></i>
+              </a></li>
+              <li><a href={'https://www.linkedin/shareArticle?url=' + baseUrl + pageContext.slug } className="linkedin" target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-linkedin fa-2x"></i>
+              </a></li>
+            </ul>
+          </div>
     </Layout>
   )
 }
