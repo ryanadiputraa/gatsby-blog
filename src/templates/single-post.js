@@ -18,8 +18,7 @@ const SinglePost = ({ data, pageContext }) => {
             <Img className="card-image-top" fluid={ post.image.childImageSharp.fluid }/>
             <CardBody>
               <CardSubtitle>
-                <span className="text-info">{ post.date }</span> by {' '}
-                <span className="text-info">{ post.author }</span>
+                <span className="text-info">{ post.date }</span>
               </CardSubtitle>
               <div dangerouslySetInnerHTML={{ __html:data.markdownRemark.html }} />
               <ul className="post-tags">
@@ -65,7 +64,7 @@ export const postQuery = graphql`
         tags
         image {
           childImageSharp {
-            fluid(maxWidth: 700) {
+            fluid(maxWidth: 700, maxHeight: 360) {
               ...GatsbyImageSharpFluid
             }
           }

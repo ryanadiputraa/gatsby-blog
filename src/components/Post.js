@@ -13,8 +13,7 @@ const Post = ({ title, date, author, slug, body, fluid, tags }) => {
       <CardBody>
         <CardTitle><Link to={ slug }>{ title }</Link></CardTitle>
         <CardSubtitle>
-          <span className="text-info">{ date }</span> by{' '}
-          <span className="text-info">{ author }</span>
+          <span className="text-info">{ date }</span>
         </CardSubtitle>
         <CardText>{ body }</CardText>
         <ul className="post-tags">

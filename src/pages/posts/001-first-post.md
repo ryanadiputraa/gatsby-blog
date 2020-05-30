@@ -7,4 +7,4 @@ tags:
 - programming
 ---
 
-Welcome to Ryan's Blog, happy reading. Welcome to Ryan's Blog, happy reading.
+Welcome, happy reading.

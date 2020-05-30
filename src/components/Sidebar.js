@@ -20,14 +20,6 @@ const Sidebar = () => (
     </Card>
     <Card>
       <CardBody>
-        <CardTitle className="text-center text-uppercase" >
-          Advertisement
-        </CardTitle>
-        <img src="https://via.placeholder.com/320x200" alt="advertisement" style={{ width: "100%" }} />
-      </CardBody>
-    </Card>
-    <Card>
-      <CardBody>
         <CardTitle className="text-center text-uppercase mb-3">
           Recent Post
         </CardTitle>
