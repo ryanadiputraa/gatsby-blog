@@ -10,7 +10,7 @@ const AboutPage = () => (
   <Layout pageTitle="About Page">
     <SEO title="About" />
     <Row className="mb-4">
-      <div className="col-md-3">
+      <div className="col-md-4">
         <img src={RyanImage} style={{ width: '100%' }} alt="Ryan Adi Putra" />
       </div>
       <div className="col-md-8">

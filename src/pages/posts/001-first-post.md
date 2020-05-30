@@ -1,6 +1,6 @@
 ---
-title: 'First Post - Introduction'
-date:  2020-05-29 08:00:00
+title: 'First Post'
+date:  2020-06-01 08:00:00
 author: 'Ryan Adi Putra'
 image: ../../images/algorithm.jpg
 tags: 
