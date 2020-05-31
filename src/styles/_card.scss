@@ -1,6 +1,9 @@
 .card {
   margin-bottom: 30px;
 }
+.card .card-body {
+  box-shadow: 0 0 .5em .2em #aaa;
+}
 .card-title{
   color: #0056b3;
 }
@@ -12,4 +15,11 @@ ul.post-tags {
   li {
     margin-right: 10px;
   }
+}
+.badge {
+  padding: .5em;
+  box-shadow: 0em 0em 0.5em 0.1em #aaa;
+}
+.btn {
+  box-shadow: 0em 0em 0.5em 0.1em #aaa;
 }

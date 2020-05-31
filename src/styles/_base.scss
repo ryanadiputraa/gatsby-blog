@@ -15,17 +15,18 @@ a {
 h1 {
   margin-bottom: 20px;
   text-align: center;
+  color: #0056b3;
 }
 .navbar {
-  background-color: white;
+  background-color: #222;
   // border-right: 1px solid rgba(0, 0, 0, 0.4);
   // border-left: 1px solid rgba(0, 0, 0, 0.4);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  border-bottom: 4px solid #0056b3;
   line-height: 1;
 }
 .navbar-light .navbar-nav .nav-link,
 .navbar-light .navbar-brand {
-  color: #0056b3;
+  color: #fff;
   &:hover {
     color: #007bff;
   }
@@ -33,4 +34,7 @@ h1 {
 ul {
   list-style: none;
   padding: 0;
+}
+.navbar-toggler {
+  background-color: #fff;
 }

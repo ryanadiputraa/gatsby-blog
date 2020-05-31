@@ -11,12 +11,12 @@ const AboutPage = () => (
     <SEO title="About" />
     <Row className="mb-4">
       <div className="col-md-4">
-        <img src={RyanImage} style={{ width: '100%' }} alt="Ryan Adi Putra" />
+        <img src={RyanImage} style={{ width: '100%', maxHeight: '420px', boxShadow: '0 0 .5em .2em #aaa' }} alt="Ryan Adi Putra" />
       </div>
       <div className="col-md-8">
         <Card style={{ minHeight: '100%' }}>
           <CardBody>
-            <CardTitle>{ authors[0].name }</CardTitle>
+            <CardTitle>About me</CardTitle>
             <CardText>{ authors[0].bio }</CardText>
           </CardBody>
         </Card>
