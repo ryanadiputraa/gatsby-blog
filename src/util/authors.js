@@ -2,7 +2,7 @@ const authors = [
   {
     name: 'Ryan Adi Putra',
     imageUrl: 'icon.png',
-    bio: "Hello, my name is Ryan Adi Putra, i'm a college student of Tadulako University, and i'm a web developer.",
+    bio: "I'am a university student in Tadulako majoring in information technology, I'am interested in programming, especially web development. I also a guitarist of Soundset band which you can checkout our song on Spotify :)",
     facebook: 'https://www.facebook.com/ryan.adiputra.1426',
     twitter: 'https://twitter.com/RyanAdi33024016',
     instagram: 'https://www.instagram.com/bukanryan/',

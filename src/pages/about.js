@@ -7,7 +7,7 @@ import authors from '../util/authors'
 import RyanImage from '../images/icon.png'
 
 const AboutPage = () => (
-  <Layout pageTitle="About Page">
+  <Layout pageTitle="About Me">
     <SEO title="About" />
     <Row className="mb-4">
       <div className="col-md-4">
@@ -16,7 +16,7 @@ const AboutPage = () => (
       <div className="col-md-8">
         <Card style={{ minHeight: '100%' }}>
           <CardBody>
-            <CardTitle>About me</CardTitle>
+            <CardTitle>{ authors[0].name }</CardTitle>
             <CardText>{ authors[0].bio }</CardText>
           </CardBody>
         </Card>

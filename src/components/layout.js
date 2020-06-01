@@ -25,10 +25,10 @@ const Layout = ({ children, pageTitle }) => {
       <div className="container" id="content" >
         <h1>~{ pageTitle }~</h1>
         <Row>
-          <Col md="8">
+          <Col md="9">
             <main>{children}</main>
           </Col>
-          <Col md="4"><Sidebar/></Col>
+          <Col md="3"><Sidebar/></Col>
         </Row>
       </div>
       <Footer />
