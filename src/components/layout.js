@@ -23,7 +23,7 @@ const Layout = ({ children, pageTitle }) => {
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
       <div className="container" id="content" >
-        <h1>~{ pageTitle }~</h1>
+        <h1>-{ pageTitle }-</h1>
         <Row>
           <Col md="9">
             <main>{children}</main>
