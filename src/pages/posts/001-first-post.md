@@ -1,6 +1,6 @@
 ---
 title: 'Algoritma'
-date:  2020-06-01 08:00:00
+date:  2020-06-03 11:24:00
 author: 'Ryan Adi Putra'
 image: ../../images/algorithm.jpg
 tags: 

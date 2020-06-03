@@ -9,7 +9,7 @@ import { slugify } from '../util/utilityFunctions'
 const SinglePost = ({ data, pageContext }) => {
 
   const post = data.markdownRemark.frontmatter;
-  const baseUrl = 'https://ryanadiputra.netlify.app/';
+  const baseUrl = 'https://www.ryanadiputra.cf/';
 
   return(
     <Layout pageTitle={post.title}>
@@ -43,8 +43,8 @@ const SinglePost = ({ data, pageContext }) => {
               <li><a href={'https://twitter.com/share?url=' + baseUrl + pageContext.slug + '&text=' + post.title + '&viatwitterHandle' } className="twitter" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-twitter fa-2x"></i>
               </a></li>
-              <li><a href={'https://www.linkedin/shareArticle?url=' + baseUrl + pageContext.slug } className="linkedin" target="_blank" rel="noopener noreferrer">
-                <i className="fab fa-linkedin fa-2x"></i>
+              <li><a href={'whatsapp://send?text=' + baseUrl + pageContext.slug } className="whatsapp" target="_blank" rel="noopener noreferrer">
+                <i className="fab fa-whatsapp fa-2x"></i>
               </a></li>
             </ul>
           </div>
