@@ -17,7 +17,7 @@ const Header = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-      <Navbar fixed="top" light expand="sm">
+      <Navbar fixed="top" dark expand="sm">
       <div className="container">
         <NavbarBrand href="/">Home</NavbarBrand>
         <NavbarToggler onClick={toggle} />
