@@ -13,11 +13,11 @@ const IndexPage = () => {
   let numberOfPages
 
   return(
-    <Layout pageTitle="Home Page">
+    <Layout pageTitle="Blog Page">
       <Helmet>
         <script src="https://kit.fontawesome.com/14ff7e2675.js" crossOrigin="anonymous"></script>
       </Helmet>
-      <SEO title="Home" />
+      <SEO title="Blog" />
         <StaticQuery query={ indexQuery } render={ data => {
           numberOfPages = Math.ceil(data.allMarkdownRemark.totalCount / postsPerPage)
           return (

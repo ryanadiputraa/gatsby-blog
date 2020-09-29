@@ -19,10 +19,13 @@ const Header = (props) => {
   return (
       <Navbar fixed="top" dark expand="sm">
       <div className="container">
-        <NavbarBrand href="/">Home</NavbarBrand>
+        <NavbarBrand href="/">Blog</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
+            <NavItem>
+              <NavLink href="/projects">Projects</NavLink>
+            </NavItem>
             <NavItem>
               <NavLink href="/tags">Tags</NavLink>
             </NavItem>
